@@ -11,6 +11,7 @@
 #include<atomic>
 #include<chrono>
 
+using namespace std;
 int main(){
     unsigned int nCores = thread::hardware_concurrency();
     int nThreads = nCores -2;
