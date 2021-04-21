@@ -194,11 +194,10 @@ void gillespie_beans (vector<Ensemble> *tResults, vector<Ensemble2> *tPopulation
                 Continue = 0;
             } else {*/
 
-                double Tau = 1./Gamma_prev;
+            double Tau = 1./Gamma_prev;
 
-                // get random time step
-                Deltat = gsl_ran_exponential(r, Tau);
-            //}
+            // get random time step
+            Deltat = gsl_ran_exponential(r, Tau);
 
             // each time tt crosses 1.0, write out data
             while (tt>=(double)itt) {

@@ -12,7 +12,7 @@ typedef vector<State> History;
 // An Ensemble is a map from Genotypes to integers (populations)
 // In the notation on my blackboard and notes, the Ensemble is the set of
 // occupation/population numbers for each genotype g, denoted \{n_g\}
-typedef map<Genotype,uint64_t> Ensemble
+typedef map<Genotype,uint64_t> Ensemble;
 // Ensemble2 is a map from Genotypes to float numbers. Since uint64 is not large enough
 typedef map<Genotype,long double> Ensemble2;
 
