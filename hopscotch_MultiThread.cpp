@@ -270,29 +270,30 @@ int main (int argc, char** argv) {
             }
         }
 
-    if ((string)argv[i] == "--cores") {
-        if (i == argc-1) {
-            cout << "Error: enter number of threads" << endl;
-            return 1;
-        } else {
-            // set number of threads
-            nThreads = atoi(argv[i+1]);
+        if ((string)argv[i] == "--cores") {
+            if (i == argc-1) {
+                cout << "Error: enter number of threads" << endl;
+                return 1;
+            } else {
+                // set number of threads
+                nThreads = atoi(argv[i+1]);
+            }
         }
-    }
 
-    if ((string)argv[i] == "--runs") {
-        if (i == argc-1) {
-            cout << "Error: enter number of runs for each thread" << endl;
-            return 1;
-        } else {
-            // set number of threads
-            runs = atoi(argv[i+1]);
+        if ((string)argv[i] == "--runs") {
+            if (i == argc-1) {
+                cout << "Error: enter number of runs for each thread" << endl;
+                return 1;
+            } else {
+                // set number of threads
+                runs = atoi(argv[i+1]);
+            }
         }
-    }
 
-    if (outputfile == "") {
-        cout << "Error: no output file" << endl;
-        return 1;
+        if (outputfile == "") {
+            cout << "Error: no output file" << endl;
+            return 1;
+        }
     }
 
 
@@ -502,8 +503,6 @@ int main (int argc, char** argv) {
         }
         output << endl;
     }
-
-
 
     // Close output files
     output.close();
