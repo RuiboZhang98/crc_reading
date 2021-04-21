@@ -335,7 +335,7 @@ int main (int argc, char** argv) {
     vector<vector<Ensemble2>>populations(nThreads);
 
     Ensemble tmp;
-    Ensemble2 tmp2 = 0;
+    Ensemble2 tmp2;
     reset_ensemble(tmp); // how fast is this compared to init_ensemble?
     //init_ensemble(tmp,G); // these two are equally fast
     // Add a dummy space for storing total population
