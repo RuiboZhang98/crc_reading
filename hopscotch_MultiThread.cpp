@@ -485,6 +485,11 @@ int main (int argc, char** argv) {
     for (int it=0; it<bins; it++) {
         output << it << ", ";
 
+        double zTotal = 0;
+        for (int i=0; i<nThreads; i++) {
+            zTotal += results[i][it][make_tuple(-1)];
+        }
+
         for (auto p = G.begin(); p != G.end(); ++p) {
             double freq = 0;
             for (int i=0; i < nThreads; i++) {
