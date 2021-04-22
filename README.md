@@ -30,6 +30,10 @@ The output csv file contains:
 2. line 83-163: average population for type-i crypts at year tt
 
 # other comments
-The uploaded data does not include the first line.
+The uploaded data does not include the first line. This code is encoded based on Chay Patersons's CRC_Initiation. 
+
+https://github.com/chaypaterson/CRC_Initiation
+
+Modes other than Gillespie is removed. Data related to population is recorded. The whole cancer initiation procedure is been restricted on it's main chain.
 
 
