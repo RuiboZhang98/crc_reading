@@ -26,7 +26,10 @@ in which "hopscotch" is the name of OUTPUTEXE.
 The output csv file contains:
 
 1. line 1: keys of the table: tt means time(year), i means type-i crypts 
-2. line 2-82: distributions of the waiting times for type-i crypts
-2. line 83-163: distributions of the populations for type-i crypts
+2. line 2-82: distribution of the waiting time for type-i crypts at year tt
+2. line 83-163: average population for type-i crypts at year tt
+
+# other comments
+The uploaded data does not include the first line.
 
 
