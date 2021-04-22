@@ -4,7 +4,7 @@ The multi-thread version of Gillespie algorithm for the main chain
 # how to build
 On Debian and Ubuntu, the code should then compile with
 
-g++ hopscotch.cpp --std=c++11 -lgsl -lgslcblas -lm -o OUTPUTEXE -pthread
+g++ hopscotch_MultiThread.cpp --std=c++11 -lgsl -lgslcblas -lm -o OUTPUTEXE -pthread
 
 # how to run
 Required parameters are
