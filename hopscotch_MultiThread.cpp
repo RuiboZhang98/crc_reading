@@ -290,6 +290,15 @@ int main (int argc, char** argv) {
             }
         }
 
+        if ((string)argv[i] == "--t") {
+            if (i == argc-1) {
+                cout << "Default final time is 80" << endl;
+            } else {
+                // set number of threads
+                ttmax = atoi(argv[i+1]) + dt;
+            }
+        }
+
         if (outputfile == "") {
             cout << "Error: no output file" << endl;
             return 1;
