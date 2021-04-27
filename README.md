@@ -15,6 +15,8 @@ Required parameters are
 
 --runs M: M = number of runs for each thread
 
+--t T: T = the final time (should be an integer). Default t = 80.
+
 Therefore MN trajectories will be simulated.
 
 The most recent data is collected by
