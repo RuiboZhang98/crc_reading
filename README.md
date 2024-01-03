@@ -36,6 +36,6 @@ The uploaded data does not include the first line. This code is encoded based on
 
 https://github.com/chaypaterson/CRC_Initiation
 
-Modes other than Gillespie is removed. Data related to population is recorded. The whole cancer initiation procedure is been restricted on it's main chain.
+Modes other than Gillespie are removed. Data related to population is recorded. The whole cancer initiation procedure is been restricted on it's main chain.
 
 
